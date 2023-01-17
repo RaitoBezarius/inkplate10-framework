@@ -7,6 +7,6 @@
   };
 
   outputs = { self, nixpkgs, nixpkgs-esp-dev }: {
-    devShells.default = nixpkgs-esp-dev.devShells.esp32-idf;
+    devShells.x86_64-linux.default = nixpkgs-esp-dev.devShells.x86_64-linux.esp32-idf;
   };
 }
