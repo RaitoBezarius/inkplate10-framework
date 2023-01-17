@@ -7,7 +7,7 @@
 
 void app_main(void)
 {
-  printf("This is a test\n");
+  printf("This is a test2\n");
   vTaskDelay(3000 / portTICK_PERIOD_MS);
   fflush(stdout);
   esp_restart();

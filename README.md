@@ -14,4 +14,4 @@ idf.py flash
 idf.py monitor
 ```
 
-Use `Ctrl+]` to detach.
+Use `Ctrl+]` to detach or `Ctrl+Shift+$` on azerty.
