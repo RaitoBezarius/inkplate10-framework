@@ -2,8 +2,8 @@
   description = "Inkplate 10 framework";
 
   inputs = {
-    nixpkgs.url = "nixpkgs/nixpkgs-unstable";
-    nixpkgs-esp-dev.url = "github.com:mirrexagon/nixpkgs-esp-dev";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    nixpkgs-esp-dev.url = "github:mirrexagon/nixpkgs-esp-dev";
   };
 
   outputs = { self, nixpkgs, nixpkgs-esp-dev }: {
